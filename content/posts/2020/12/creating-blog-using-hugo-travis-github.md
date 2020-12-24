@@ -15,7 +15,7 @@ As I do not want to have 2 separate repositories as proposed by Claudio Jolowicz
 
 Under your github account, create a new repository using the format `<USERNAME>.github.io` (in my case it is `tomasalmeida.github.io`). Pay attention the repository is public, I tried it as private and it did not work, so if it works for you, even better :-)
 
-[image 1]
+![Creating page repository on github](creating-repository.png)
 
 ### Set gh-pages as content branch
 Now, let's create our needed branch `gh-pages` and set it as the default content container. To do it, we need to start the repo locally and push the changes. I made a dummy commit, but you can directly create your hugo content if you prefer...
@@ -49,7 +49,7 @@ git push origin --all # just a double check
 
 Go to your github repository again and enter in settings. There scroll down to **GitHub Pages** section and change the branch from `main` to `gh-pages`. Save it.
 
-[image 2]
+![using gh-pages branch for github pages](using-gh-pages-for-github-pages.png)
 
 > A more detailed explanation about how to change your github page branch can be found in github docs:
 >
@@ -98,7 +98,7 @@ Github tokens are a way to give permissions to other agents to access/act in you
 
 2. Choose a name (I recommend something meaningful like `travis-ci-token`) and select repo checkbox (travis will commit changes for you).
 
-[image 3]
+![Creating a token in github](creating-token-in-github.png)
 
 3. Generate the token (button in the bottom) and store the value.
 
@@ -110,7 +110,7 @@ Github tokens are a way to give permissions to other agents to access/act in you
     2. Optionally: you can restrict the access to branch `main`.
     3. Save it.
 
-[image 4]
+![Setting token as env variable on travis](setting-token-as-env-variable-on-travis.png)
 
 ## Hugo configuration
 
@@ -161,42 +161,6 @@ git add config.toml
 git commit -m "Adding blog basic configuration"
 ```
 
-### Create your first post
-
-Well, I am creating this post right now. As you can see I like to have the date in the name for organization. I believe it goes against SEO, but it is easier to maintain control over the posts.
-
-```shell
-hugo new posts/2020/12/creating-blog-using-hugo-travis-github.md
-```
-
-As you can see, a new file is created with something like this:
-```text
----
-title: "Creating Blog Using Hugo Travis Github"
-date: 2020-12-24T12:58:00+01:00
-draft: true
----
-```
-
-Brief explanation:
-* **title**: it is an auto generated title for your post.
-* **date**: when the file was created
-* **draft**: true means do not publish it.
-
-If you want to see the changes directly in [http://localhost:1313](http://localhost:1313/) if you can run
-
-```shell
-hugo server -D
-```
-
-Once your finish your post, it is time to commit everything (do not forget to change the draft option to false)
-
-Commit the changes:
-```shell
-git add .
-git commit -m "My first blog post about creating a blog and its first blog post"
-```
-
 ## Create Travis configuration
 
 Last and easiest part, we will connect all together. Under the root of your project create the `.travis.yml` file with this content:
@@ -227,3 +191,52 @@ Commit travis configuration file:
 git add .travis.yml
 git commit -m "Travis ci configuration"
 ```
+
+## Create your first post
+
+Well, I am creating this post right now. As you can see I like to have the date in the name for organization. I believe it goes against SEO, but it is easier to maintain control over the posts.
+
+```shell
+hugo new posts/2020/12/creating-blog-using-hugo-travis-github.md
+```
+
+As you can see, a new file is created with something like this:
+```text
+---
+title: "Creating Blog Using Hugo Travis Github"
+date: 2020-12-24T12:58:00+01:00
+draft: true
+---
+```
+
+Brief explanation:
+* **title**: it is an auto generated title for your post.
+* **date**: when the file was created
+* **draft**: true means do not publish it.
+
+If you want to see the changes directly in [http://localhost:1313](http://localhost:1313/) if you can run
+
+```shell
+hugo server -D
+```
+
+Once your finish your post, it is time to commit everything (do not forget to change the draft option to false)
+
+Commit and push the changes:
+```shell
+git add .
+git commit -m "My first blog post about creating a blog and its first blog post"
+git push --set-upstream origin main
+```
+
+### Travis build job
+
+When you push the changes, travis will launch a new build. You can review it at `https://travis-ci.com/github/<USERNAME>/<USERNAME>.github.io`
+
+Once the build is done your website is visible after some seconds!
+
+## References:
+1. [Hosting a Hugo blog on GitHub Pages with Travis CI](https://cjolowicz.github.io/posts/hosting-a-hugo-blog-on-github-pages-with-travis-ci/)
+2. [Hugo on GitHub Pages using Travis-CI for deployment](https://creaturesurvive.github.io/repo/blog/hugo-on-github-pages-using-travis-ci-for-deployment/)
+3. [Hugo on GitHub Pages with Travis CI](https://www.sidorenko.io/post/2018/12/hugo-on-github-pages-with-travis-ci/)
+4. [Hugo: Quick Start](https://gohugo.io/getting-started/quick-start/)
