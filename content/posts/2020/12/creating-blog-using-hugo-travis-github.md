@@ -2,8 +2,13 @@
 title: "Creating a blog using Hugo, travis-ci and Github pages"
 date: 2020-12-24T12:58:00+01:00
 draft: false
+tags: ["hugo", "travis-ci", "github", "themes"]
+categories: ["web", "installation"]
+ShowToc: true
+TocOpen: false
+weight: 2
 ---
-# How I created this blog 
+# How I created this blog
 
 As many github blogs born and die, my first post is how I created this blog using hugo as static page generator, travis-ci as CI/CD and github pages as page hosting.
 

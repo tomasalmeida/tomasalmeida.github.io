@@ -1,0 +1,101 @@
+#basic configuration
+baseURL: "https://tomasalmeida.github.io/"
+title: "Tomás Dias Almeida notes"
+languageCode: "en-us"
+theme: "hugo-PaperMod"
+markup:
+  goldmark:
+    renderer:
+      unsafe: true # allow html in markdown
+
+#theme hugo-PaperMod
+paginate: 5
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: "Tomás Dias Almeida notes"
+  description: "ExampleSite description"
+  author: "Tomás Dias Almeida"
+
+  #images: "<link or path of image for opengraph, twitter-cards>"
+
+  ShowReadingTime: true
+  ShowShareButtons: true
+  comments: false
+  defaultTheme: auto
+  disableThemeToggle: false
+  disableSpecial1stPost: false
+
+#  assets:
+#    favicon: "static/favicon.ico"
+#    favicon16x16: "<link / abs url>"
+#    favicon32x32: "<link / abs url>"
+#    apple_touch_icon: "<link / abs url>"
+#    safari_pinned_tab: "<link / abs url>"
+
+  label:
+    text: "Tomás Dias Almeida"
+    #icon: /apple-touch-icon.png
+    #iconHeight: 35
+
+  # profile-mode
+#  profileMode:
+#    enabled: false
+#    title: "Tomás Dias Almeida" # optional default will be site title
+#    subTitle: |
+#      Hello there 👋🏼.
+#
+#      I am a senior software engineer at Netcentric living in Vigo, Spain. I am a fan of technology, travel, and innovation. I’m also interested in web development and programming.
+#      ****
+#      ###### This page is my personal page with no relation with my current company. All texts are offered here are provided with no warranty, please understand what you are doing before you do anything (that is a good advice for life too)
+#    imageUrl: "/images/avatar.jpg" # optional
+#    imageTitle: "Tomás Dias Almeida" # optional
+#    imageWidth: 200 # custom size
+#    imageHeight: 200 # custom size
+#    buttons:
+#      - name: Posts
+#        url: "/posts"
+#      - name: Tags
+#        url: "/tags"
+
+  homeInfoParams:
+    Title: "Hi there, I am Tomás \U0001F44B"
+    Content: "I am a senior software engineer at Netcentric living in Vigo, Spain. I am a fan of technology, travel, and innovation. I’m also interested in web development and programming. Read more about me in the [about page](/about/)."
+
+  socialIcons:
+    - name: linkedin
+      url: "https://www.linkedin.com/in/tomasdiasalmeida/"
+    - name: twitter
+      url: "https://twitter.com/tomasalmeida"
+    - name: github
+      url: "https://github.com/tomasalmeida"
+    - name: rss
+      url: "/index.xml"
+menu:
+  main:
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 10
+    - identifier: archive
+      name: Archive
+      url: /archives/
+      weight: 20
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 30
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # is necessary for search
