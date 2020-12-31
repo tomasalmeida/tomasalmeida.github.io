@@ -7,6 +7,7 @@ categories: []
 ShowToc: false
 TocOpen: false
 weight: 2
+disableShare: true
 ---
 
 Hello, I am Tomás.
