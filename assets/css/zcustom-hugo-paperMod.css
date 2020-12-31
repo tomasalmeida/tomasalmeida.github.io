@@ -1,4 +1,4 @@
-/* https://github.com/adityatelange/hugo-PaperMod/pull/154/files */
+/* https://github.com/adityatelange/hugo-PaperMod/pull/154/files
 .post-content .highlight,
 .post-content pre {
     margin: auto 0 32px;
@@ -7,6 +7,7 @@
 .post-content blockquote {
     margin:0 0;
 }
+*/
 
 .post-content img {
     display: block;
@@ -17,7 +18,4 @@
 
 .social-icons {
     text-align: center;
-}
-
-.home-info {
 }
