@@ -7,6 +7,7 @@ categories: [""]
 ShowToc: true
 TocOpen: false
 weight: 2
+disableShare: true
 ---
 
 ##### Netcentric Summit 2019: JUnit 5, mockito 2 and AEM Mocks, is it true for you?
