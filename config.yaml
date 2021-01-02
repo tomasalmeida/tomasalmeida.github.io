@@ -7,10 +7,11 @@ markup:
   goldmark:
     renderer:
       unsafe: true # allow html in markdown
+enableGitInfo: true
+enableRobotsTXT: true
 
 #theme hugo-PaperMod
 paginate: 5
-enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
 buildExpired: false
@@ -87,7 +88,7 @@ menu:
       weight: 10
     - identifier: archive
       name: Archive
-      url: /archives/
+      url: /archive/
       weight: 20
     - identifier: about
       name: About
