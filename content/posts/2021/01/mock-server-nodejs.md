@@ -65,6 +65,12 @@ server.listen(port);
 console.log('Server running on port ' + port);
 ```
 
+After it, just run it:
+
+```shell
+node server.js 9999
+```
+
 Some explanations of this small script:
 1. The server is listening to any request (POST, GET, etc..)
 2. This server prints the headers, the used method and the url and in other point the body.
