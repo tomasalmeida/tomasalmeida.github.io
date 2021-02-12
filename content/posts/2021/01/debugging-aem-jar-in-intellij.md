@@ -65,4 +65,11 @@ So, now you know the bundle 11 has the class you want to debug.
 
 Now you can use shift + shift to open the search window (check the "Include non-project items").
 
-If you found any error or want to help me to improve this article, please [comment the pull request](https://github.com/tomasalmeida/tomasalmeida.github.io/pull/3)
+
+# Built-in alternatives
+
+[chrwal](https://github.com/chrwal) recommended via comment that an alternative that can be installed in Apache felix and provide everything to you directly is https://github.com/neva-dev/felix-search-webconsole-plugin. I never used it, but the screenshots are nice :-)
+
+
+---
+If you found any error or want to help me to improve this article, please [comment the pull request](https://github.com/tomasalmeida/tomasalmeida.github.io/pull/3).
