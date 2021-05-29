@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>github on Tomás Dias Almeida notes</title>
+    <link>https://tomasalmeida.pro/tags/github/</link>
+    <description>Recent content in github on Tomás Dias Almeida notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 24 Dec 2020 12:58:00 +0100</lastBuildDate><atom:link href="https://tomasalmeida.pro/tags/github/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Creating a blog using Hugo, travis-ci and Github pages</title>
+      <link>https://tomasalmeida.pro/posts/2020/12/creating-blog-using-hugo-travis-github/</link>
+      <pubDate>Thu, 24 Dec 2020 12:58:00 +0100</pubDate>
+      
+      <guid>https://tomasalmeida.pro/posts/2020/12/creating-blog-using-hugo-travis-github/</guid>
+      <description>How I created this blog As many github blogs born and die, my first post is how I created this blog using hugo as static page generator, travis-ci as CI/CD and github pages as page hosting.
+As I do not want to have 2 separate repositories as proposed by Claudio Jolowicz in his tutorial, I will use the possibility to host the source under main and the page itself under another branch.</description>
+    </item>
+    
+  </channel>
+</rss>

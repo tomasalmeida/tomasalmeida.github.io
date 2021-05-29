@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>macOS on Tomás Dias Almeida notes</title>
+    <link>https://tomasalmeida.pro/tags/macos/</link>
+    <description>Recent content in macOS on Tomás Dias Almeida notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 26 Dec 2020 11:49:09 +0100</lastBuildDate><atom:link href="https://tomasalmeida.pro/tags/macos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Showing hidden files and folder on Finder (MacOS)</title>
+      <link>https://tomasalmeida.pro/posts/2020/12/showing-hidden-files-folder-macos/</link>
+      <pubDate>Sat, 26 Dec 2020 11:49:09 +0100</pubDate>
+      
+      <guid>https://tomasalmeida.pro/posts/2020/12/showing-hidden-files-folder-macos/</guid>
+      <description>One thing that I miss from Windows is the Windows Explorer (yes, I like it). Finder is not as good as Windows Explorer&amp;hellip;
+Permanent solution I like to see all my files, so to do it on MacOS , open a terminal and type
+defaults write com.apple.Finder AppleShowAllFiles true killall Finder Revert changes This setting is persisted even after a restart, so if you want to go back to your previous status (hidden files are hidden), open a terminal again and type:</description>
+    </item>
+    
+  </channel>
+</rss>
