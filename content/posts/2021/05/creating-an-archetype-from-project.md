@@ -12,7 +12,7 @@ weight: 2
 If you are creating a cloud of microservices or are in an environment where you have to generate multiple maven projects or modules, it is very useful to create archetypes to handle these new modules/projects creation.
 
 ## What is an archetype?
-[Maven archetype](https://maven.apache.org/guides/introduction/introduction-to-archetypes.html) is a templated project. Maven offers several archetypes that allow you to create new maven modules ready to run in few seconds.
+[A Maven archetype](https://maven.apache.org/guides/introduction/introduction-to-archetypes.html) is a templated project. Maven offers several archetypes that allow you to create new maven modules ready to run in few seconds.
 
 ## How to use a generic archetype?
 [Archetype usage](https://maven.apache.org/archetype/maven-archetype-plugin/usage.html) is quite simple. If you want to generate an archetype based on the default list, just run:
@@ -24,7 +24,7 @@ And then choose one of the options, provide the details and confirm. The new pro
 
 ## How to use a custom archetype?
 
-In this case, we need to specify the groupId and artifactId of the archetype to be able to use a custom one. As example, let's see the [archetype provided by Adobe for AEM](https://github.com/adobe/aem-project-archetype):
+In this case, we need to specify the groupId and artifactId of the archetype to be able to use a custom one. As an example, let's see the [archetype provided by Adobe for AEM](https://github.com/adobe/aem-project-archetype):
 
 ```
 mvn archetype:generate  \
@@ -35,9 +35,9 @@ mvn archetype:generate  \
 
 If you run the command, you will be asked about some properties of your project. Some properties are standard (`groupId`, `version`, `artifactId` and `package`), but others were specific of this artifact, like `appTitle` or `sdkVersion`. These properties will help the archetype to generate a new project for you and in few seconds and knowing nothing about Adobe AEM you have your new project ready to run.
 
-## How the archetype works?
+## How does the archetype work?
 
-Internally, an archetype has all the files (pom file, classes, readme, etc...) with variables that will be replaced during project generation. As example, you can see these variables in several parts of the pom file below.
+Internally, an archetype has all the files (pom file, classes, readme, etc...) with variables that will be replaced during project generation. As an example, you can see these variables in several parts of the pom file below.
 
 ```xml
 
@@ -61,7 +61,7 @@ Maven has a [good documentation how to organize and create your archetype](https
 
 ## Creating an archetype from a project
 
-In most of the cases, it is hard to maintain an archetype because:
+In most cases, it is hard to maintain an archetype because:
 1. It is not a project itself, so you need to use your archetype to see if the generated project is working.
 2. Templating is good, but it is hard to read and you need to "imagine" how the code will look like after.
 3. We are lazy, and if it is hard to understand, it will be hard to maintain. People will go back to copy-paste projects and replace the text.
@@ -71,16 +71,16 @@ A simple way to bypass all these constraints is to create an archetype from an e
 ### Create your archetype example project
 
 Some characteristics are desired in the archetype example project:
-1. It should be simple, but complete. Remember to include all dependencies and one example of each element of your project. For example, if the project is a microservice, it makes sense to include a controller, a service and a repository.
+1. It should be simple, but complete. Remember to include all dependencies and one example of each element of your project. For example, if the project is a microservice, it makes sense to include a controller, a service, and a repository.
 2. Name it in a coherent manner (you  will see it in the next steps). I would recommend, for example, having a controller called `ArchetypeExampleController` which talks to `ArchetypeExampleService`.
 3. In each file, place the same prefix in the variables, so it will be easy to replace them. For example, if you need a variable for your `ArchetypeExampleService`, a good name is `archetypeVariableService`.
-4. Include the dot files as part of this project and a good readme.
+4. Include the dotfiles as part of this project and a good readme.
 
 ### archetype:create-from-project
 
 The maven goal [archetype:create-from-project](https://maven.apache.org/archetype/maven-archetype-plugin/create-from-project-mojo.html) is the key to generate an archetype from a project.
 
-As part of the configuration, you can pass a archetype.properties file as parameter. This property file should like that:
+As part of the configuration, you can pass an archetype.properties file as a parameter. This property file should like that:
 
 ```properties
 # these are standard properties
@@ -100,9 +100,9 @@ As you see above, I only included the changing part of the files or variables an
 
 Let's go through all the steps from our archetype example project until our archetype.
 
-#### 1. Rename all dot files 
+#### 1. Rename all dotfiles 
 
-It was a known issue that dot files are not included in the archetype. So we need to rename them to include it as part of our archetype.
+It was a known issue that dotfiles are not included in the archetype. So we need to rename them, so they will be also included in the generated archetype (and posterior project).
 
 ```shell
 mv .gitignore dot.gitignore
@@ -119,7 +119,7 @@ mvn -U clean archetype:create-from-project \
       -DpackageName=com.almeida.tomas \
       -Darchetype.filteredExtensions=java,xml,md
 ```
-In the [documentation](https://maven.apache.org/archetype/maven-archetype-plugin/create-from-project-mojo.html) you can see more parameters and why and when they are used, but in summary:
+In the [documentation](https://maven.apache.org/archetype/maven-archetype-plugin/create-from-project-mojo.html), you can see more parameters and why and when they are used, but in summary:
 - `-Dinteractive=false`: interactive mode is disabled.
 - `-DkeepParent=true`: keep the parent. 
 - `-DpropertyFile=archetype.properties`: use our archetype.properties file to check for the variables. 
@@ -128,7 +128,7 @@ In the [documentation](https://maven.apache.org/archetype/maven-archetype-plugin
 
 #### 3. Clean up the generated archetype metadata
 
-In some cases the generation includes a default value of a property and we want to be sure that the all values will be requested to the user.
+In some cases, the generation includes a default value of a property and we want to be sure that all values will be filled by the user.
 
 ```shel
 cd target/generated-sources/archetype/
@@ -142,12 +142,16 @@ If you are running these commands locally install, the archetype in your local r
 mvn -B -U clean install
 ```
 
-My recommendation is to configure a jenkins job, so everytime a change is pushed to the project, jenkins runs the commands and push a new version to your repository. So Jenkins should run a 
-`mvn -B -U clean deploy`
+My recommendation is to configure a Jenkins job, so every time a change is pushed to the project, Jenkins runs the commands and pushes a new version to your repository. 
+
+```shell
+# deploy the archetype to repository
+mvn -B -U clean deploy
+```
 
 ## Use your created archetype
 
-The created archetype will have the same artifactId with a `-archetype` suffix. So based in our example:
+The created archetype will have the same artifactId with a `-archetype` suffix. So based on our example:
 
 ```shell
 mvn archetype:generate \
@@ -187,7 +191,7 @@ A new folder will be created and the name is the artifacId name. In our example,
 cd demo-project
 ```
 
-The dot files need to be renamed:
+The dotfiles need to be renamed:
 
 ```shell
 mv dot.gitignore .gitignore
