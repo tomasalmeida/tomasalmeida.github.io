@@ -23,7 +23,7 @@ minify:
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: "Tomás Dias Almeida notes"
-  description: "ExampleSite description"
+  description: "technical notes / articles from Tomás Dias Almeida."
   author: "Tomás Dias Almeida"
 
   #images: "<link or path of image for opengraph, twitter-cards>"
