@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>queue on Tomás Dias Almeida notes</title>
+    <link>https://tomasalmeida.pro/tags/queue/</link>
+    <description>Recent content in queue on Tomás Dias Almeida notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 29 May 2022 12:40:26 +0200</lastBuildDate><atom:link href="https://tomasalmeida.pro/tags/queue/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My summary about AWS queues</title>
+      <link>https://tomasalmeida.pro/posts/2022/05/my-summary-about-aws-queues/</link>
+      <pubDate>Sun, 29 May 2022 12:40:26 +0200</pubDate>
+      
+      <guid>https://tomasalmeida.pro/posts/2022/05/my-summary-about-aws-queues/</guid>
+      <description>I was doubting about writing this post because AWS is evolving really fast and this post will be probably old very fast. So, I am adding the AWS documentation, so, please take your time to check the official documentation to confirm my findings (and if possible, write me a message so I can update it if needed).
+SQS AWS SQS is a simple 1:1 queue, so it delivers messages from A to B.</description>
+    </item>
+    
+  </channel>
+</rss>

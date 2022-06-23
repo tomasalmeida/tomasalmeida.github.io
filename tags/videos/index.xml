@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>videos on Tomás Dias Almeida notes</title>
+    <link>https://tomasalmeida.pro/tags/videos/</link>
+    <description>Recent content in videos on Tomás Dias Almeida notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 26 Dec 2020 12:18:52 +0100</lastBuildDate><atom:link href="https://tomasalmeida.pro/tags/videos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Presentations</title>
+      <link>https://tomasalmeida.pro/presentations/</link>
+      <pubDate>Sat, 26 Dec 2020 12:18:52 +0100</pubDate>
+      
+      <guid>https://tomasalmeida.pro/presentations/</guid>
+      <description>2021 Netcentric Summit 2021 Blog post: Kustomize &amp;amp; Crossplane: maximizing the utility of Kubernetes
+2019 Netcentric Summit 2019 
+Blog post: JUnit 5: leveraging new features for testing
+2017 VigoJUG 2017: Make Java Great Again!</description>
+    </item>
+    
+  </channel>
+</rss>

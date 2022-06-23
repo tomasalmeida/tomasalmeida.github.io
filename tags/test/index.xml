@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>test on Tomás Dias Almeida notes</title>
+    <link>https://tomasalmeida.pro/tags/test/</link>
+    <description>Recent content in test on Tomás Dias Almeida notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 20 Jun 2022 22:14:25 +0200</lastBuildDate><atom:link href="https://tomasalmeida.pro/tags/test/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Migrating From Junit4 to Junit5</title>
+      <link>https://tomasalmeida.pro/posts/2022/06/migrating-from-junit4-to-junit5/</link>
+      <pubDate>Mon, 20 Jun 2022 22:14:25 +0200</pubDate>
+      
+      <guid>https://tomasalmeida.pro/posts/2022/06/migrating-from-junit4-to-junit5/</guid>
+      <description>In 2019, I gave a talk at Netcentric Summit about Junit5 migration and its advantages. You can check the content here:
+ Video: Netcentric | JUnit 5, mockito 2 and AEM Mocks, is it true for you? Blog post: JUnit 5: leveraging new features for testing  After 3 years, I wanted to revisit the procedure to migrate from junit4 to junit5, so let&amp;rsquo;s do it! The result was this PR.</description>
+    </item>
+    
+  </channel>
+</rss>

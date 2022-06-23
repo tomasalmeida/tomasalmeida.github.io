@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Categories on Tomás Dias Almeida notes</title>
+    <link>https://tomasalmeida.pro/categories/</link>
+    <description>Recent content in Categories on Tomás Dias Almeida notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 20 Jun 2022 22:14:25 +0200</lastBuildDate><atom:link href="https://tomasalmeida.pro/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>development</title>
+      <link>https://tomasalmeida.pro/categories/development/</link>
+      <pubDate>Mon, 20 Jun 2022 22:14:25 +0200</pubDate>
+      
+      <guid>https://tomasalmeida.pro/categories/development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://tomasalmeida.pro/categories/test/</link>
+      <pubDate>Fri, 02 Apr 2021 20:51:10 +0200</pubDate>
+      
+      <guid>https://tomasalmeida.pro/categories/test/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>debug</title>
+      <link>https://tomasalmeida.pro/categories/debug/</link>
+      <pubDate>Sun, 31 Jan 2021 19:38:11 +0100</pubDate>
+      
+      <guid>https://tomasalmeida.pro/categories/debug/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>macOS</title>
+      <link>https://tomasalmeida.pro/categories/macos/</link>
+      <pubDate>Sat, 26 Dec 2020 11:49:09 +0100</pubDate>
+      
+      <guid>https://tomasalmeida.pro/categories/macos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>installation</title>
+      <link>https://tomasalmeida.pro/categories/installation/</link>
+      <pubDate>Thu, 24 Dec 2020 12:58:00 +0100</pubDate>
+      
+      <guid>https://tomasalmeida.pro/categories/installation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>web</title>
+      <link>https://tomasalmeida.pro/categories/web/</link>
+      <pubDate>Thu, 24 Dec 2020 12:58:00 +0100</pubDate>
+      
+      <guid>https://tomasalmeida.pro/categories/web/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

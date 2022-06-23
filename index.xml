@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tomás Dias Almeida notes</title>
+    <link>https://tomasalmeida.pro/</link>
+    <description>Recent content on Tomás Dias Almeida notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 20 Jun 2022 22:14:25 +0200</lastBuildDate><atom:link href="https://tomasalmeida.pro/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Migrating From Junit4 to Junit5</title>
+      <link>https://tomasalmeida.pro/posts/2022/06/migrating-from-junit4-to-junit5/</link>
+      <pubDate>Mon, 20 Jun 2022 22:14:25 +0200</pubDate>
+      
+      <guid>https://tomasalmeida.pro/posts/2022/06/migrating-from-junit4-to-junit5/</guid>
+      <description>In 2019, I gave a talk at Netcentric Summit about Junit5 migration and its advantages. You can check the content here:
+ Video: Netcentric | JUnit 5, mockito 2 and AEM Mocks, is it true for you? Blog post: JUnit 5: leveraging new features for testing  After 3 years, I wanted to revisit the procedure to migrate from junit4 to junit5, so let&amp;rsquo;s do it! The result was this PR.</description>
+    </item>
+    
+    <item>
+      <title>My summary about AWS queues</title>
+      <link>https://tomasalmeida.pro/posts/2022/05/my-summary-about-aws-queues/</link>
+      <pubDate>Sun, 29 May 2022 12:40:26 +0200</pubDate>
+      
+      <guid>https://tomasalmeida.pro/posts/2022/05/my-summary-about-aws-queues/</guid>
+      <description>I was doubting about writing this post because AWS is evolving really fast and this post will be probably old very fast. So, I am adding the AWS documentation, so, please take your time to check the official documentation to confirm my findings (and if possible, write me a message so I can update it if needed).
+SQS AWS SQS is a simple 1:1 queue, so it delivers messages from A to B.</description>
+    </item>
+    
+    <item>
+      <title>About me &amp; this page</title>
+      <link>https://tomasalmeida.pro/about/</link>
+      <pubDate>Sun, 29 May 2022 10:00:00 +0100</pubDate>
+      
+      <guid>https://tomasalmeida.pro/about/</guid>
+      <description>Hello, I am Tomás. I work as Customer Success Technical Architect (CSTA, read like &amp;ldquo;siesta&amp;rdquo;) at Confluent. As CSTA, I help companies to keep their data in motion using Confluent products and Apache Kafka.
+Before Confluent, I worked as senior software engineer and team lead at Netcentric being the bridge between the business necessities and the development team. My main tasks included participating in business meetings to guide the client about how to take advantage of Adobe products, supporting the team to work better, and designing and implementing solutions.</description>
+    </item>
+    
+    <item>
+      <title>Creating an archetype from an existing project</title>
+      <link>https://tomasalmeida.pro/posts/2021/05/creating-an-archetype-from-project/</link>
+      <pubDate>Sat, 29 May 2021 15:13:31 +0200</pubDate>
+      
+      <guid>https://tomasalmeida.pro/posts/2021/05/creating-an-archetype-from-project/</guid>
+      <description>If you are creating a cloud of microservices or are in an environment where you have to generate multiple maven projects or modules, it is very useful to create archetypes to handle these new modules/projects creation.
+What is an archetype? A Maven archetype is a templated project. Maven offers several archetypes that allow you to create new maven modules ready to run in few seconds.
+How to use a generic archetype?</description>
+    </item>
+    
+    <item>
+      <title>Introducing myself to Kubernetes</title>
+      <link>https://tomasalmeida.pro/posts/2021/04/introducing-myself-to-k8s/</link>
+      <pubDate>Fri, 02 Apr 2021 20:51:10 +0200</pubDate>
+      
+      <guid>https://tomasalmeida.pro/posts/2021/04/introducing-myself-to-k8s/</guid>
+      <description>I am starting my journey with kubernetes (k8s) and I want to share the tutorials and blog posts that I read. In that way I can find them easily too 😬.
+Kubernetes basics:  A Beginner’s Guide to Kubernetes: a very complete guide about the kubernetes basics and how they work internally. An introduction to Kubernetes.: defines kubernetes, pod, deployment, service, ingress, job, kubernetes control plane and when to NOT use k8s.</description>
+    </item>
+    
+    <item>
+      <title>Debugging AEM: java code in IntelliJ</title>
+      <link>https://tomasalmeida.pro/posts/2021/01/debugging-aem-jar-in-intellij/</link>
+      <pubDate>Sun, 31 Jan 2021 19:38:11 +0100</pubDate>
+      
+      <guid>https://tomasalmeida.pro/posts/2021/01/debugging-aem-jar-in-intellij/</guid>
+      <description>When you are working on Adobe AEM, you usually have to debug some sling or OSGi classes to understand what is happening &amp;ldquo;behind the scene&amp;rdquo;. IntelliJ allows you to download source code and attach it to IntelliJ, but sometimes you cannot do it (you do not have internet access, your vpn to your nexus is down, etc&amp;hellip;).
+This trick allows you to import the jar bundles into IntelliJ and debug them without downloading the sources!</description>
+    </item>
+    
+    <item>
+      <title>Mocking a http post server with node.js</title>
+      <link>https://tomasalmeida.pro/posts/2021/01/mock-server-nodejs/</link>
+      <pubDate>Wed, 06 Jan 2021 21:55:47 +0100</pubDate>
+      
+      <guid>https://tomasalmeida.pro/posts/2021/01/mock-server-nodejs/</guid>
+      <description>Sometimes we need to contact remote servers and send him some data. It is hard to test the whole feature if the remote server does not offer you a sandbox environment.
+An easy way to do it is creating a mock http server and for me, the easiest way of doing it is with node.js
+Install node.js Node.js offers a great page for downloading it, I prefer to use it the package manager options.</description>
+    </item>
+    
+    <item>
+      <title>Mocking static methods (and constructors) using Mockito 3.5.0&#43;</title>
+      <link>https://tomasalmeida.pro/posts/2020/12/mocking-static-methods-mockito/</link>
+      <pubDate>Wed, 30 Dec 2020 23:22:39 +0100</pubDate>
+      
+      <guid>https://tomasalmeida.pro/posts/2020/12/mocking-static-methods-mockito/</guid>
+      <description>Since version 3.4.0, Mockito allows us to mock static methods, so you do not need to add powermock as dependency for most of your necessities.
+I will not discuss why we should avoid static methods or helper class with static methods, as several articles do it quite well (1, 2, 3, etc..), we need to deal with static methods in the real world of development and mockito helps us to create unit tests when these static methods are involved.</description>
+    </item>
+    
+    <item>
+      <title>Presentations</title>
+      <link>https://tomasalmeida.pro/presentations/</link>
+      <pubDate>Sat, 26 Dec 2020 12:18:52 +0100</pubDate>
+      
+      <guid>https://tomasalmeida.pro/presentations/</guid>
+      <description>2021 Netcentric Summit 2021 Blog post: Kustomize &amp;amp; Crossplane: maximizing the utility of Kubernetes
+2019 Netcentric Summit 2019 
+Blog post: JUnit 5: leveraging new features for testing
+2017 VigoJUG 2017: Make Java Great Again!</description>
+    </item>
+    
+    <item>
+      <title>Showing hidden files and folder on Finder (MacOS)</title>
+      <link>https://tomasalmeida.pro/posts/2020/12/showing-hidden-files-folder-macos/</link>
+      <pubDate>Sat, 26 Dec 2020 11:49:09 +0100</pubDate>
+      
+      <guid>https://tomasalmeida.pro/posts/2020/12/showing-hidden-files-folder-macos/</guid>
+      <description>One thing that I miss from Windows is the Windows Explorer (yes, I like it). Finder is not as good as Windows Explorer&amp;hellip;
+Permanent solution I like to see all my files, so to do it on MacOS , open a terminal and type
+defaults write com.apple.Finder AppleShowAllFiles true killall Finder Revert changes This setting is persisted even after a restart, so if you want to go back to your previous status (hidden files are hidden), open a terminal again and type:</description>
+    </item>
+    
+    <item>
+      <title>Creating a blog using Hugo, travis-ci and Github pages</title>
+      <link>https://tomasalmeida.pro/posts/2020/12/creating-blog-using-hugo-travis-github/</link>
+      <pubDate>Thu, 24 Dec 2020 12:58:00 +0100</pubDate>
+      
+      <guid>https://tomasalmeida.pro/posts/2020/12/creating-blog-using-hugo-travis-github/</guid>
+      <description>How I created this blog As many github blogs born and die, my first post is how I created this blog using hugo as static page generator, travis-ci as CI/CD and github pages as page hosting.
+As I do not want to have 2 separate repositories as proposed by Claudio Jolowicz in his tutorial, I will use the possibility to host the source under main and the page itself under another branch.</description>
+    </item>
+    
+    
+    
+  </channel>
+</rss>

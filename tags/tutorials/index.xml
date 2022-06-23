@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>tutorials on Tomás Dias Almeida notes</title>
+    <link>https://tomasalmeida.pro/tags/tutorials/</link>
+    <description>Recent content in tutorials on Tomás Dias Almeida notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 02 Apr 2021 20:51:10 +0200</lastBuildDate><atom:link href="https://tomasalmeida.pro/tags/tutorials/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introducing myself to Kubernetes</title>
+      <link>https://tomasalmeida.pro/posts/2021/04/introducing-myself-to-k8s/</link>
+      <pubDate>Fri, 02 Apr 2021 20:51:10 +0200</pubDate>
+      
+      <guid>https://tomasalmeida.pro/posts/2021/04/introducing-myself-to-k8s/</guid>
+      <description>I am starting my journey with kubernetes (k8s) and I want to share the tutorials and blog posts that I read. In that way I can find them easily too 😬.
+Kubernetes basics:  A Beginner’s Guide to Kubernetes: a very complete guide about the kubernetes basics and how they work internally. An introduction to Kubernetes.: defines kubernetes, pod, deployment, service, ingress, job, kubernetes control plane and when to NOT use k8s.</description>
+    </item>
+    
+  </channel>
+</rss>
