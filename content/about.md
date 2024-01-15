@@ -28,7 +28,7 @@ In my spare time, I work on personal projects using and testing new technologies
 * In my [Twitter account](https://twitter.com/tomasalmeida), I share things that I believe are interesting to other people.
 * My [Github profile](https://github.com/tomasalmeida) summarizes my public contributions to opensource (which are few, I need to admit it 😔).
 * If you want to read my [blog posts](/archive/), you can add it to [your feedly](https://feedly.com/i/discover/sources/search/feed/https%3A%2F%2Ftomasalmeida.pro%2Findex.xml).
-
+* It is possible to find me in the Travel Blog [Nunca sin Viaje]([/archive/](https://www.nuncasinviaje.com/)) (in Spanish).
 ----
 
 ###### This page is my personal page with no relation with my current company. All texts are offered here are provided with no warranty, please understand what you are doing before you do anything (that is a good advice for life too).
