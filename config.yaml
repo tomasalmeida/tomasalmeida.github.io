@@ -1,7 +1,7 @@
 #basic configuration
 baseURL: "https://tomasalmeida.pro/"
 title: "Tomás Dias Almeida notes"
-languageCode: "en-us"
+locale: "en-us"
 theme: "hugo-PaperMod"
 markup:
   goldmark:
