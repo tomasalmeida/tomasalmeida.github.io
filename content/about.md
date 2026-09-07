@@ -10,17 +10,19 @@ weight: 2
 disableShare: true
 ---
 
-Hello, I am Tomás. I work as Customer Success Technical Architect (CSTA, read like "siesta") at [Confluent](https://www.confluent.io). As CSTA, I help companies to keep their data in motion using Confluent products and Apache Kafka.
+Hello, I am Tomás. I am a Customer Success Technical Architect (CSTA, read like "siesta") at [Confluent](https://www.confluent.io), helping organizations design and operate large-scale, high-performance, and fault-tolerant data streaming solutions using Apache Kafka, Apache Flink, and the Confluent ecosystem. My role sits at the intersection of architecture, engineering, and customer partnership, enabling teams to get their data in motion and unlock real-time capabilities with confidence.
 
-Before Confluent, I worked as senior software engineer and team lead at [Netcentric](https://www.netcentric.biz) being the bridge between the business necessities and the development team. My main tasks included participating in business meetings to guide the client about how to take advantage of Adobe products, supporting the team to work better, and designing and implementing solutions.
+I have completed a Postgraduate Certificate in Data Science & Machine Learning, strengthening my expertise in data analysis, machine learning, big data, deep learning, and applied analytics to complement real-time streaming architectures.
 
 ![Me in Swedish Lapony - 2018](/images/logo.png)
 
-Before joining Netcentric, I worked at [Optare Solutions](https://www.optaresolutions.com) (Spain) as Senior Consultant in the telecom industry. As a consultant, I discussed the design and implementation of the solution between client and other providers and was the first contact in case of incidents.
+Before Confluent, I spent several years at [Netcentric](https://www.netcentric.biz) (a Cognizant Digital Business), where I played a key part in growing the Vigo office from a 4-person team to more than 30 professionals. As a senior software engineer and team lead, I combined hands-on development (Java, AEM, AWS) with leadership responsibilities: coaching colleagues, aligning teams with management, shaping delivery practices, and serving as the primary technical point of contact for clients. I also led strategic initiatives and introduced new technologies into the company's portfolio in collaboration with customers who placed strong trust in our work.
 
-Besides these companies, I also worked as software specialist at [Motorola Devices](https://www.motorola.com.br) (Brazil and USA), and intern at [Capgemini Telecom & Media](https://www.capgemini.com/fr-fr/capgemini-a-rennes/) (France), [CenPRA](https://www.cti.gov.br) (Brazil) and [Unicamp](https://www.unicamp.br) (Brazil).
+Prior to that, I worked as a Senior Consultant at [Optare Solutions](https://www.optaresolutions.com), delivering OSS/BSS solutions for major telecom operators across Europe and Latin America, from solution architecture to incident management and multi-vendor coordination.
 
-In my spare time, I work on personal projects using and testing new technologies. I'm a computer engineer by [Unicamp](https://www.unicamp.br) (Brazil), with 1.5 years of exchange in [INSA Rennes](https://www.insa-rennes.fr/) (France) with a Brazilian scholarship.
+Earlier in my career, I gained multinational experience at [Motorola Mobile Devices](https://www.motorola.com.br) (Brazil & USA), [Capgemini Telecom & Media](https://www.capgemini.com/fr-fr/capgemini-a-rennes/) (France), [CenPRA](https://www.cti.gov.br) (Brazil), and [Unicamp](https://www.unicamp.br), working across embedded systems, telecom, software engineering, and security research. I hold a degree in Computer Engineering from [Unicamp](https://www.unicamp.br) (Brazil), including a 1.5-year academic exchange at [INSA Rennes](https://www.insa-rennes.fr/) (France) with a full Brazilian scholarship.
+
+I'm passionate about solving complex technical challenges, designing scalable architectures, and partnering closely with customers to turn ambitious ideas into reliable systems. My background across multiple countries, industries, and technologies helps me adapt quickly, communicate clearly, and build strong, trust-based relationships. If you'd like to connect around data streaming, architecture, real-time platforms, or simply share ideas about technology and innovation, feel free to reach out.
 
 ## Social links
 * My presentations (not too many 😭) are listed here at [presentations section](/presentations/).
