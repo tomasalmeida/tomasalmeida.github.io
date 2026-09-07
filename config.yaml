@@ -55,7 +55,7 @@ params:
 #    subTitle: |
 #      Hello there 👋🏼.
 #
-#      I am a senior software engineer at Netcentric living in Vigo, Spain. I am a fan of technology, travel, and innovation. I’m also interested in web development and programming.
+#      I am a Customer Success Technical Architect at Confluent living in Vigo, Spain. I am a fan of technology, travel, and innovation. I’m also interested in web development and programming.
 #      ****
 #      ###### This page is my personal page with no relation with my current company. All texts are offered here are provided with no warranty, please understand what you are doing before you do anything (that is a good advice for life too)
 #    imageUrl: "/images/avatar.jpg" # optional
@@ -70,7 +70,7 @@ params:
 
   homeInfoParams:
     Title: "Hi there, I am Tomás \U0001F44B"
-    Content: "I am a senior software engineer at Netcentric living in Vigo, Spain. I am a fan of technology, travel, and innovation. I’m also interested in web development and programming. Read more about me in the [about page](/about/)."
+    Content: "I am a Customer Success Technical Architect at Confluent living in Vigo, Spain. I am a fan of technology, travel, and innovation. I’m also interested in web development and programming. Read more about me in the [about page](/about/)."
 
   socialIcons:
     - name: linkedin
